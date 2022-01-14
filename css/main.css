@@ -20,8 +20,6 @@ body {
   padding-bottom: 50px;
 }
 img {
-  width: 150px;
-  height: 160px;
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 35px;
@@ -48,17 +46,6 @@ img {
   padding-left: 25px;
 }
 
-/*span {
-  color: rgb(187, 35, 35);
-  background-color: yellow;
-  padding: 15px;
-  border: 5px solid blue;
-  border-radius: 40px;
-  font-size: 15px;
-  float: left;
-}
-*/
-
 .number {
   float: left;
   padding-left: 14px;
@@ -83,66 +70,6 @@ img {
   width: 150px;
 }
 
-/*.client::before {
-  content: "1";
-  position: absolute;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: white;
-  border: 4px solid #70c0c9;
-  color: #70c0c9;
-  line-height: 6px;
-  border-radius: 20px;
-  top: 100px;
-}*/
-/*.messaging::after {
-  content: "2";
-  float: left;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: white;
-  border: 4px solid #4074bd;
-  color: #4074bd;
-  line-height: 6px;
-  border-radius: 20px;
-  top: 50px;
-}
-
-.sales::after {
-  content: "3";
-  position: absolute;
-  float: left;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: white;
-  border: 4px solid #e05e46;
-  color: #e05e46;
-  line-height: 6px;
-  border-radius: 20px;
-  top: 100px;
-}
-.strategy::after {
-  content: "4";
-  position: absolute;
-  float: left;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: white;
-  border: 4px solid #919191;
-  color: #919191;
-  line-height: 6px;
-  border-radius: 20px;
-  top: 100px;
-}
-*/
 h1 {
   width: 120px;
   display: inline-block;
