@@ -1,0 +1,85 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  margin: 10%;
+  display: inline-block;
+  width: 800px;
+  margin-left: calc(50% - 400px);
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+}
+img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+div::before {
+  content: "";
+  position: absolute;
+  top: 120px;
+  border-radius: 50%;
+  border: 25px solid blue;
+}
+.client {
+  width: 120px;
+}
+.client > img {
+  padding: 10px;
+  background-color: darkcyan;
+}
+
+.messaging > img {
+  width: 160px;
+  background-color: tomato;
+  padding: 5px;
+}
+.sales > img {
+  float: left;
+  width: 150px;
+  background-color: yellow;
+  padding-bottom: 40px;
+}
+.strategy > img {
+  float: left;
+  width: 150px;
+  background-color: lightgray;
+  padding-bottom: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.client {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
+.messaging {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
+.sales {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
+.strategy {
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+}
