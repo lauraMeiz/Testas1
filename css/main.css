@@ -31,11 +31,11 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: #70c0c9;
+  float: left;
 }
 .client {
   width: 19%;
   float: left;
-  margin: 5px;
   margin-left: 30px;
 }
 
@@ -43,7 +43,7 @@ img {
   width: 160px;
   height: 150px;
   padding-top: 5px;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 .number {
@@ -59,10 +59,6 @@ img {
   line-height: 6px;
   border-radius: 20px;
   position: absolute;
-}
-.client > .number {
-  border: 4px solid #70c0c9;
-  color: #70c0c9;
 }
 
 .client-text {
